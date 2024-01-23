@@ -21,6 +21,7 @@ https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?v
 <h2>4. Business Requirements</h2>
 4.1 A **DataMart** must be delivered to support analyses of sales order data (**SalesOrder**);
 4.2 The granularity of the fact should be the smallest possible granularity available in the OLTP, where each row of the fact will represent a sales order with its details;
+
 4.3 The dimensions should be analyzed by the candidate, examining the available data from the OLTP and the ER model;
 4.4 The **Stage** and **Data Mart** tables must be loaded into **SQL Server** using **SSIS** to perform the ETL process;
 4.5 The dimensions must comply with **Type 1** slowly changing dimensions (SCD);
