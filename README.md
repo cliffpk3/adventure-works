@@ -14,7 +14,7 @@ https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?v
 <h4>3.2 Exploratory analysis of data and data dictionary;</h4>
 <h4>3.3 Creation of Select Queries, Dimensions, and Fact;</h4>
 <h4>3.4 Creation of **SSIS Packages**;</h4>
-<img align="center" alt="4_2" src="https://user-images.githubusercontent.com/86201991/178035963-536e48e0-9347-4f83-a810-5ddbee340694.png"/>
+<img align="center" alt="4_2" src="https://raw.githubusercontent.com/cliffpk3/adventure-works/main/extra_files/dimensional_model.png"/>
 <h4>3.6 Structure of Dimensional Model </h4>
 <img align="center" alt="4_2" src="https://raw.githubusercontent.com/cliffpk3/adventure-works/main/extra_files/ssisdb.png"/>
 
