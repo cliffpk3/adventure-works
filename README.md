@@ -27,8 +27,10 @@ https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?v
 <h4>4.8 The project must also be sent (**SSIS Project**, **DDLs**, **DMLs**) to people@dataside.com.br.</h4> 
 
 <h2>5. Business Insights</h2> 
-<h4>5.2 There are many columns that could contribute to the product specification but contain numerous null values, making analyses on these features impractical. It would be advisable to improve the standardization in product registration or consider re-registering some products to ensure that the characteristics align with the analyses.</h4>
-<h4>5.1 The table **Store.BusinessEntity**, as described in the data dictionary, does not exist in the database sample. Additionally, the connection between the **Person.BusinessEntity** table (BusinessEntityID) and the **Sales.Store** table (StoreID) is irregular, thus resulting in misaligned data. The joining of tables was achieved through the **PERSON.BUSINESSENTITY**, **PERSON.PERSON**, and **SALES.STORE** tables.</h4> 
+<h4>5.1 A data or proccess revision may be necessary for further analysis</h4>
+There are many columns that could contribute to the product specification but contain numerous null values, making analyses on these features impractical. It would be advisable to improve the standardization in product registration or consider re-registering some products to ensure that the characteristics align with the analyses.
+<h4>5.2 There are some data missing on AdventureWorks2019 database</h4>
+The table **Store.BusinessEntity**, as described in the data dictionary, does not exist in the database sample. Additionally, the connection between the **Person.BusinessEntity** table (BusinessEntityID) and the **Sales.Store** table (StoreID) is irregular, thus resulting in misaligned data. The joining of tables was achieved through the **PERSON.BUSINESSENTITY**, **PERSON.PERSON**, and **SALES.STORE** tables.
 
 <h2>6. Conclusion</h2>
 A satisfactory dimensional model has been successfully structured, enabling detailed analysis of various relevant characteristics within a sales analysis context. The **Business Intelligence** model provides efficient support for the business team.
