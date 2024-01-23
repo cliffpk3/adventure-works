@@ -12,7 +12,7 @@ https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?v
 <h2>3. Solution Strategy</h2>
 <h4>3.1</h4>Download data from **Microsoft Website**;
 <h4>3.2</h4>Exploratory analysis of data and data dictionary;
-<h4>3.3</h4>Creation of Select Queries, Dimensions, and Fact;
+<h4>3.3</h4> Creation of Select Queries, Dimensions, and Fact;
 <h4>3.4</h4>Creation of **SSIS Packages**;
 <h4>3.6</h4>Structure of Dimensional Model
 
