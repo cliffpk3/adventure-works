@@ -6,15 +6,15 @@ The data used for the construction of the dimensional model is publicly availabl
 https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms
 
 <h4>2.1 Technical Assumptions:</h4>
-<h4>2.1.1</h4> Non-essential columns with over 50% of null values will be disregarded.
-<h4>2.1.2</h4> Dimensions with less information (e.g., product categories and subcategories) will be grouped into a single dimension.
+<h4>2.1.1</h4>Non-essential columns with over 50% of null values will be disregarded.
+<h4>2.1.2</h4>Dimensions with less information (e.g., product categories and subcategories) will be grouped into a single dimension.
 
 <h2>3. Solution Strategy</h2>
-<h4>3.1</h4> Download data from **Microsoft Website**;
-<h4>3.2</h4> Exploratory analysis of data and data dictionary;
-<h4>3.3</h4> Creation of Select Queries, Dimensions, and Fact;
-<h4>3.4</h4> Creation of **SSIS Packages**;
-<h4>3.6</h4> Structure of Dimensional Model
+<h4>3.1</h4>Download data from **Microsoft Website**;
+<h4>3.2</h4>Exploratory analysis of data and data dictionary;
+<h4>3.3</h4>Creation of Select Queries, Dimensions, and Fact;
+<h4>3.4</h4>Creation of **SSIS Packages**;
+<h4>3.6</h4>Structure of Dimensional Model
 
 <h2>4. Business Requirements</h2>
 <h4>4.1</h4> A **DataMart** must be delivered to support analyses of sales order data (**SalesOrder**);
